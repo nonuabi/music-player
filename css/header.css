@@ -1,10 +1,3 @@
-body {
-  margin: 0;
-  box-sizing: border-box;
-  background-color: blueviolet;
-}
-
-/* Header */
 header {
   width: -webkit-fill-available;
   height: 60px;
@@ -74,15 +67,4 @@ header {
 .profile_image_container img {
   width: 100%;
   height: 100%;
-}
-/* Content Container */
-.content_container {
-  height: 80vh;
-  background-color: darkkhaki;
-}
-
-/* Footer */
-footer {
-  width: 100vw;
-  background-color: darkred;
 }
