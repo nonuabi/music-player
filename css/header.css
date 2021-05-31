@@ -1,7 +1,7 @@
 header {
   width: -webkit-fill-available;
   height: 60px;
-  background-color: white;
+  /* background-color: white; */
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
