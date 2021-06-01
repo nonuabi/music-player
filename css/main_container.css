@@ -1,7 +1,6 @@
 /* Content Container */
 .content_container {
   height: 75vh;
-  /* background-color: darkkhaki; */
   display: flex;
   padding: 10px;
 }
