@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -11,91 +12,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="./css/header.css" rel="stylesheet" type="text/css" />
-    <link href="./css/body.css" rel="stylesheet" type="text/css" />
-    <link href="./css/footer.css" rel="stylesheet" type="text/css" />
-    <link href="./css/main_container.css" rel="stylesheet" type="text/css" />
-
     <title>Document</title>
   </head>
   <body>
-    <!-- header -->
     <header>
-      <!-- app logo with the app name  -->
-      <div class="logo_container">
-        <div class="logo">
-          <!-- <img src="./static/img/logo.jfif" alt="music logo" />
-           -->
-          <i class="fas fa-music fa-2x"></i>
-        </div>
-        <div class="studio_name">
-          <p>Ninjas</p>
-          <p id="name_id">Studio</p>
+      <div class="logo">
+        <i class="fas fa-music fa-2x"></i>
+        <div class="name">
+          <p>Music</p>
+          <h4>Player</h4>
         </div>
       </div>
+      <button>Favourites</button>
+      <i class="fas fa-search" id="search_icon"></i>
 
-      <!-- favourite button -->
-      <div class="fav_button">
-        <button>Favourites</button>
-      </div>
+      <input type="text" placeholder="Search" />
+      <i class="fas fa-microphone" id="microphone"></i>
 
-      <!-- input tag for  searching  -->
-      <div class="search_container">
-        <i class="fas fa-search"></i>
-        <input type="text" placeholder="Search" />
-      </div>
-
-      <!-- img tag which show the bell icon  -->
-      <div class="bell_icon">
-        <i class="far fa-bell fa-2x"></i>
-      </div>
-
-      <!-- img tag which show the profile image of login user -->
-      <div class="profile_image_container">
-        <img src="./static/img/face.jfif" alt="" />
-      </div>
+      <i class="fas fa-bell fa-2x"></i>
+      <img src="" />
     </header>
-    <div class="content_container">
-      <!-- left side container  -->
-      <div class="left">
-        <div class="display">
-          <div class="current_image">
-            <img
-              src="https://images.unsplash.com/photo-1592714375745-d93348944974?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80"
-              alt="coldplay pic"
-            />
-          </div>
-          <div class="display_des">
-            <div class="name_fol">
-              <h2>ColdPlay</h2>
-              <p>851 Followers</p>
-            </div>
-            <p id="band_name">British Band</p>
-            <p>
-              Coldplay is an English rock band formed in London in 1996. The
-              band's members are vocalist/pianist Chris Martin, guitarist Jonny
-              Buckland, bass player Guy Berryman and drummer Will Champion.
-              Coldplay became famous around the world with their 2000 song
-              "Yellow".
-            </p>
-            <div class="display_action">
-              <button class="play_btn">Play All</button>
-              <button class="follow_btn">Follow</button>
-            </div>
-            <p id="details">247 Tracks | 128 Albums</p>
-          </div>
-        </div>
-        <div class="list"></div>
-      </div>
 
-      <!-- right side container -->
-      <div class="right">
-        <div class="artists"></div>
-        <div class="recently"></div>
-      </div>
-    </div>
-    <div class="footer_div">Footer</div>
-    <!-- <footer>Footer</footer> -->
-    <script src="./script/script.js" type="text/javaScript"></script>
+    <footer class="footer">Footer</footer>
   </body>
 </html>
